@@ -1,0 +1,122 @@
+header {
+  height: 20px;
+  width: auto;
+}
+body {
+  margin: 0;
+  width: auto;
+}
+.stash-lox {
+  position: relative;
+  left: 15em;
+  top: 78px;
+  font-family: "Marck Script", cursive;
+  font-size: 2em;
+  color: #137547;
+}
+.head-container {
+  height: 30px;
+  width: auto;
+  background-color: #0f7173;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: small;
+}
+#head {
+  position: relative;
+  top: 5px;
+  text-align: center;
+  margin-top: 0;
+}
+.top-container {
+  background-color: #c4e1dd;
+  position: relative;
+  height: 420px;
+  width: auto;
+  margin-top: 0;
+  box-shadow: 1px 0px 5px 1px grey;
+  background-image: url("weed%202.jpeg");
+  background-size: auto 450px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+div.top-container p.Ad {
+  position: relative;
+  left: 12.4em;
+  top: 2.5em;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 0;
+}
+div.top-container #Ads {
+  position: relative;
+  left: 25.8em;
+  top: 5.5em;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2em;
+  color: black;
+  margin-top: 0;
+}
+div.top-container button.order-now {
+  display: inline-block;
+  height: 3em;
+  width: 8em;
+  color: #137547;
+  border-radius: 0.3em;
+  border: none;
+  font-size: 1em;
+  position: absolute;
+  top: 12.5em;
+  left: 31em;
+  box-shadow: 1px 1px 10px 1px grey;
+  border-style: inherit;
+}
+div.top-container button.shop-deals {
+  display: inline-block;
+  height: 3em;
+  width: 8em;
+  color: #137547;
+  border-radius: 0.3em;
+  border: none;
+  font-size: 1em;
+  position: absolute;
+  top: 12.5em;
+  left: 40em;
+  box-shadow: 1px 1px 10px 1px grey;
+  border-style: inherit;
+}
+.nav-top {
+  display: inline-block;
+  background: white;
+  position: relative;
+  top: 10px;
+  left: 40em;
+  width: 600px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.nav-top input {
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 25px 1px#cce3de;
+  border-radius: 1.5em;
+  border-style: inherit;
+}
+.nav-top button {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  position: absolute;
+  top: 9px;
+  right: 300px;
+  left: 590px;
+  padding: 0 5px;
+  z-index: auto;
+}
