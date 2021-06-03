@@ -28,6 +28,44 @@ body {
   text-align: center;
   margin-top: 0;
 }
+
+/* nav bar where logo & search bar are*/
+.nav-top {
+  display: inline-block;
+  background: white;
+  position: relative;
+  top: 10px;
+  left: 40em;
+  width: 600px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.nav-top input {
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 25px 1px#cce3de;
+  border-radius: 1.5em;
+  border-style: inherit;
+}
+.nav-top button {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  position: absolute;
+  top: 9px;
+  right: 300px;
+  left: 590px;
+  padding: 0 5px;
+  z-index: auto;
+}
+
+/* top container where weeds bud image is*/
 .top-container {
   background-color: #c4e1dd;
   position: relative;
@@ -86,40 +124,9 @@ div.top-container button.shop-deals {
   box-shadow: 1px 1px 10px 1px grey;
   border-style: inherit;
 }
-.nav-top {
-  display: inline-block;
-  background: white;
-  position: relative;
-  top: 10px;
-  left: 40em;
-  width: 600px;
-  padding: 5px;
-  margin-bottom: 20px;
-}
-.nav-top input {
-  width: 100%;
-  padding: 5px 10px 5px 10px;
-  display: block;
-  margin-bottom: 10px;
-  box-shadow: 1px 1px 25px 1px#cce3de;
-  border-radius: 1.5em;
-  border-style: inherit;
-}
-.nav-top button {
-  height: 20px;
-  width: 20px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  display: block;
-  font-size: 15px;
-  position: absolute;
-  top: 9px;
-  right: 300px;
-  left: 590px;
-  padding: 0 5px;
-  z-index: auto;
-}
+
+/* local favorites shows local dispensaries */
+
 .local-fav {
   width: 58em;
   height: 35em;
@@ -248,7 +255,7 @@ img.weed-logo3 {
 
 
 
-
+/* footer */
 .footer {
   text-align: center;
   height: 8em;
