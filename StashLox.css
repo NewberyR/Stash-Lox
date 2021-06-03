@@ -120,3 +120,143 @@ div.top-container button.shop-deals {
   padding: 0 5px;
   z-index: auto;
 }
+.local-fav {
+  width: 58em;
+  height: 35em;
+  margin: auto 8em auto 8em;
+  position: relative;
+  left: 25em;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+}
+.dispensary-1 {
+  height: 22.8em;
+  width: 14.25em;
+  position: absolute;
+  left: 2em;
+  background: transparent;
+  box-shadow: 1px 0px 5px 1px grey;
+  border: none;
+  border-color: #000000;
+  margin: 2em auto 2em auto;
+}
+img.weed-logo1 {
+  width: 80%;
+  position: absolute;
+  left: 1.4em;
+  top: 0.5em;
+}
+.sunnyside-cann {
+  width: auto;
+  font-size: 1.2em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 7em;
+  left: 1.5em;
+  margin: 0.2em auto 0.2em auto;
+}
+.free-online {
+  color: #137547;
+  margin: 1px auto 1px auto;
+  font-size: 1.2em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 11.5em;
+  left: 1.5em;
+}
+.hours {
+  color: #137547;
+  margin: 1px auto 1px auto;
+  font-size: 0.8em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 22em;
+  left: 2.3em;
+}
+.delivery {
+  color: #137547;
+  margin: 1px auto 1px auto;
+  font-size: 0.6em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 33em;
+  left: 3em;
+}
+.dispensary-2 {
+  height: 22.8em;
+  width: 14.25em;
+  position: absolute;
+  left: 18em;
+  background: transparent;
+  box-shadow: 1px 0px 5px 1px grey;
+  border: none;
+  border-color: #000000;
+  margin: 2em auto 2em auto;
+}
+img.weed-logo2 {
+  width: 80%;
+  position: absolute;
+  left: 1.4em;
+  top: 0.5em;
+}
+.king-cann {
+  width: auto;
+  font-size: 1.2em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 7em;
+  left: 1.5em;
+  margin: 0.2em auto 0.2em auto;
+}
+.dispensary-3 {
+  height: 22.8em;
+  width: 14.25em;
+  position: absolute;
+  left: 34em;
+  background: transparent;
+  box-shadow: 1px 0px 5px 1px grey;
+  border: none;
+  border-color: #000000;
+  margin: 2em auto 2em auto;
+}
+img.weed-logo3 {
+  width: 80%;
+  position: absolute;
+  left: 1.4em;
+  top: 0.5em;
+}
+.cann-bk {
+  width: auto;
+  font-size: 1.2em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 7em;
+  left: 1.5em;
+  margin: 0.2em auto 0.2em auto;
+}
+
+
+
+
+
+.footer {
+  text-align: center;
+  height: 8em;
+  width: auto;
+  background-color: #0f7173;
+  border-style: none;
+  margin-top: 80em;
+  padding: 2em auto 2em;
+  font-size: 1.2em;
+  font-family: "Bebas Neue", cursive;
+  padding: 3em; 0 3em 0;
+}
+.footer a {
+  margin: 6em 2em 2em 3em;
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  margin: 7em 2em 2em 3em;
+  color: white;
+}
