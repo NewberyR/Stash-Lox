@@ -129,6 +129,7 @@ div.top-container button.shop-deals {
   color: #000000;
   font-family: "Bebas Neue", cursive;
 }
+
 .dispensary-1 {
   height: 22.8em;
   width: 14.25em;
@@ -173,14 +174,23 @@ img.weed-logo1 {
   top: 22em;
   left: 2.3em;
 }
+.pickup {
+  color: #137547;
+  margin: 1px auto 1px auto;
+  font-size: 0.6em;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 85%;
+  left: 13%;
+}
 .delivery {
   color: #137547;
   margin: 1px auto 1px auto;
   font-size: 0.6em;
   font-family: "Bebas Neue", cursive;
   position: absolute;
-  top: 33em;
-  left: 3em;
+  top: 85%;
+  left: 30%;
 }
 .dispensary-2 {
   height: 22.8em;
