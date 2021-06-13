@@ -4,17 +4,21 @@ header {
 }
 body {
   margin: 0;
-  width: auto;
+  width: 1082px;
+  flex: 1 1 1;
 }
 .stash-lox {
-  position: relative;
-  left: 15em;
-  top: 78px;
+  position: inherit;
+  left: 5.8em;
+  top: .8em;
   font-family: "Marck Script", cursive;
   font-size: 2em;
   color: #137547;
 }
-.head-container {
+span p.stash-lox {
+  position:absolute;
+}
+.header {
   height: 30px;
   width: auto;
   background-color: #0f7173;
@@ -22,25 +26,31 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   font-size: small;
 }
+.header p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
 #head {
-  position: relative;
-  top: 5px;
-  text-align: center;
+  position:relative;
   margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-/* nav bar where logo & search bar are*/
-.nav-top {
+/* .nav start*/
+.nav {
   display: inline-block;
   background: white;
   position: relative;
   top: 10px;
-  left: 40em;
+  left: 20em;
   width: 600px;
   padding: 5px;
   margin-bottom: 20px;
 }
-.nav-top input {
+.nav input {
   width: 100%;
   padding: 5px 10px 5px 10px;
   display: block;
@@ -49,7 +59,7 @@ body {
   border-radius: 1.5em;
   border-style: inherit;
 }
-.nav-top button {
+.nav button {
   height: 20px;
   width: 20px;
   background: transparent;
@@ -58,14 +68,19 @@ body {
   display: block;
   font-size: 15px;
   position: absolute;
-  top: 9px;
-  right: 300px;
-  left: 590px;
+  top: 1.3em;
+  right: 18.8em;
+  left: 40em;
   padding: 0 5px;
   z-index: auto;
 }
+.search-bar {
+  position: inherit;
+  margin: 1em 1em 1em 1em;
+}
+/* .nav end */
 
-/* top container where weeds bud image is*/
+/* .top-container*/
 .top-container {
   background-color: #c4e1dd;
   position: relative;
@@ -78,25 +93,25 @@ body {
   background-position-x: right;
   background-repeat: no-repeat;
 }
-div.top-container p.Ad {
-  position: relative;
-  left: 12.4em;
+p.Ad {
+  position: absolute;
+  left: 7.2em;
   top: 2.5em;
   font-family: "Bebas Neue", cursive;
   font-size: 2.5em;
   color: black;
   margin-bottom: 0;
 }
-div.top-container #Ads {
-  position: relative;
-  left: 25.8em;
+#Ads {
+  position: absolute;
+  left: 15em;
   top: 5.5em;
   font-family: "Bebas Neue", cursive;
   font-size: 1.2em;
   color: black;
   margin-top: 0;
 }
-div.top-container button.order-now {
+button.order-now {
   display: inline-block;
   height: 3em;
   width: 8em;
@@ -106,12 +121,11 @@ div.top-container button.order-now {
   font-size: 1em;
   position: absolute;
   top: 12.5em;
-  left: 31em;
+  left: 20em;
   box-shadow: 1px 1px 10px 1px grey;
   border-style: inherit;
 }
-div.top-container button.shop-deals {
-  display: inline-block;
+button.shop-deals {
   height: 3em;
   width: 8em;
   color: #137547;
@@ -120,21 +134,35 @@ div.top-container button.shop-deals {
   font-size: 1em;
   position: absolute;
   top: 12.5em;
-  left: 40em;
+  left: 30em;
   box-shadow: 1px 1px 10px 1px grey;
   border-style: inherit;
 }
+.buttons {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: inherit;
+}
+/* .top-container ends */
 
 /* local favorites shows local dispensaries */
-
 .local-fav {
   width: 58em;
   height: 35em;
   margin: auto 8em auto 8em;
-  position: relative;
-  left: 25em;
+  position: absolute;
   color: #000000;
   font-family: "Bebas Neue", cursive;
+}
+.dispensaries {
+  height: 26em;
+  width: 50em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .dispensary-1 {
@@ -147,6 +175,7 @@ div.top-container button.shop-deals {
   border: none;
   border-color: #000000;
   margin: 2em auto 2em auto;
+  
 }
 img.weed-logo1 {
   width: 80%;
@@ -252,9 +281,6 @@ img.weed-logo3 {
   margin: 0.2em auto 0.2em auto;
 }
 
-
-
-
 /* footer */
 .footer {
   text-align: center;
@@ -277,3 +303,4 @@ img.weed-logo3 {
   margin: 7em 2em 2em 3em;
   color: white;
 }
+/* media queries */
