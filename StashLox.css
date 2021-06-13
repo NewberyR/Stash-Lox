@@ -124,6 +124,7 @@ button.order-now {
   left: 20em;
   box-shadow: 1px 1px 10px 1px grey;
   border-style: inherit;
+  background-color: white;
 }
 button.shop-deals {
   height: 3em;
@@ -137,6 +138,7 @@ button.shop-deals {
   left: 30em;
   box-shadow: 1px 1px 10px 1px grey;
   border-style: inherit;
+  background-color: white;
 }
 .buttons {
   flex-wrap: wrap;
